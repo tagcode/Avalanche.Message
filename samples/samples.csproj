@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>CS1591;CS1573</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\NULL.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\NULL.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <RestoreAdditionalProjectSources>https://avalanche.fi/Avalanche.Core/nupkg/index.json</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Avalanche.Message.Abstractions\Avalanche.Message.Abstractions.csproj" />
+    <ProjectReference Include="..\Avalanche.Message.Localization\Avalanche.Message.Localization.csproj" />
+    <ProjectReference Include="..\Avalanche.Message\Avalanche.Message.csproj" />
+    <PackageReference Include="Avalanche.Localization.Abstractions" Version="0.1.1" />
+    <PackageReference Include="Avalanche.Localization" Version="0.1.1" />
+    <PackageReference Include="Avalanche.StatusCode.HResult" Version="0.1.1" />
+    <PackageReference Include="Avalanche.StatusCode.System" Version="0.1.1" />
+    <PackageReference Include="Avalanche.Utilities.Abstractions" Version="0.1.1" />
+    <PackageReference Include="Avalanche.Utilities" Version="0.1.1" />
+  </ItemGroup>
+</Project>

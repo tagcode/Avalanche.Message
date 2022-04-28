@@ -1,0 +1,18 @@
+﻿TemplateFormat: Brace
+PluralRules: Unicode.CLDR
+
+Invariant:
+- Culture: ""
+  Items:
+  - Key: NULL.S_OK
+    Text: "Operation successful"
+  - Key: NULL.E_FAIL
+    Text: "Unspecified error"
+
+Finnish:
+- Culture: fi
+  Items:
+  - Key: NULL.S_OK
+    Text: "Operatio onnistui"
+  - Key: NULL.E_FAIL
+    Text: "Määrittelemätön virhe"
