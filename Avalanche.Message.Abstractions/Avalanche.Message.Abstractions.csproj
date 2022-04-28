@@ -7,7 +7,7 @@
     <Company>Avalanche Information Technology Oy</Company>
     <Copyright>Toni Kalajainen</Copyright>
     <RootNamespace>Avalanche.Message</RootNamespace>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <ImplicitUsings>enable</ImplicitUsings>
     <Title>Avalanche.Message.Abstractions</Title>
     <Description>Abstractions for message processing.</Description>
@@ -33,8 +33,8 @@
     <RestoreAdditionalProjectSources>https://avalanche.fi/Avalanche.Core/nupkg/index.json</RestoreAdditionalProjectSources>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Avalanche.Template.Abstractions" Version="0.1.1" />
-    <PackageReference Include="Avalanche.Utilities.Abstractions" Version="0.1.1" />
+    <PackageReference Include="Avalanche.Template.Abstractions" Version="0.1.2" />
+    <PackageReference Include="Avalanche.Utilities.Abstractions" Version="0.1.2" />
   </ItemGroup>
   <ItemGroup>
     <None Update="README.md">

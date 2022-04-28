@@ -7,7 +7,7 @@
     <Company>Avalanche Information Technology Oy</Company>
     <Copyright>Toni Kalajainen</Copyright>
     <RootNamespace>Avalanche.Message</RootNamespace>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <ImplicitUsings>enable</ImplicitUsings>
     <Title>Avalanche.Message.Localization</Title>
     <Description>Localization for messaging.</Description>
@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Avalanche.Message\Avalanche.Message.csproj" />
-    <PackageReference Include="Avalanche.Localization" Version="0.1.1" />
+    <PackageReference Include="Avalanche.Localization" Version="0.1.2" />
   </ItemGroup>
   <ItemGroup>
     <None Update="README.md">

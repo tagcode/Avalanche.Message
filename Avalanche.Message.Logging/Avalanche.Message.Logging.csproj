@@ -8,7 +8,7 @@
     <Copyright>Toni Kalajainen</Copyright>
     <PackageProjectUrl>https://avalanche.fi/Avalanche.Core/</PackageProjectUrl>
     <RootNamespace>Avalanche.Message</RootNamespace>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <ImplicitUsings>enable</ImplicitUsings>
     <Title>Avalanche.Message.Logging</Title>
     <Description>Logging for messaging.</Description>

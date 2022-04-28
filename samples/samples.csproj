@@ -22,11 +22,11 @@
     <ProjectReference Include="..\Avalanche.Message.Abstractions\Avalanche.Message.Abstractions.csproj" />
     <ProjectReference Include="..\Avalanche.Message.Localization\Avalanche.Message.Localization.csproj" />
     <ProjectReference Include="..\Avalanche.Message\Avalanche.Message.csproj" />
-    <PackageReference Include="Avalanche.Localization.Abstractions" Version="0.1.1" />
-    <PackageReference Include="Avalanche.Localization" Version="0.1.1" />
-    <PackageReference Include="Avalanche.StatusCode.HResult" Version="0.1.1" />
-    <PackageReference Include="Avalanche.StatusCode.System" Version="0.1.1" />
-    <PackageReference Include="Avalanche.Utilities.Abstractions" Version="0.1.1" />
-    <PackageReference Include="Avalanche.Utilities" Version="0.1.1" />
+    <PackageReference Include="Avalanche.Localization.Abstractions" Version="0.1.2" />
+    <PackageReference Include="Avalanche.Localization" Version="0.1.2" />
+    <PackageReference Include="Avalanche.StatusCode.HResult" Version="0.1.2" />
+    <PackageReference Include="Avalanche.StatusCode.System" Version="0.1.2" />
+    <PackageReference Include="Avalanche.Utilities.Abstractions" Version="0.1.2" />
+    <PackageReference Include="Avalanche.Utilities" Version="0.1.2" />
   </ItemGroup>
 </Project>
